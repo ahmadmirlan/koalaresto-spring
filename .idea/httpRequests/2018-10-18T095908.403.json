@@ -1,0 +1,7 @@
+{
+  "timestamp": "2018-10-18T13:59:08.374+0000",
+  "status": 403,
+  "error": "Forbidden",
+  "message": "Access Denied",
+  "path": "/api/users"
+}

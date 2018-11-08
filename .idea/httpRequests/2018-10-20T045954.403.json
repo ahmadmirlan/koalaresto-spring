@@ -1,0 +1,7 @@
+{
+  "timestamp": "2018-10-20T08:59:54.297+0000",
+  "status": 403,
+  "error": "Forbidden",
+  "message": "Access Denied",
+  "path": "/signin"
+}

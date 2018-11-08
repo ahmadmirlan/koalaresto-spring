@@ -1,0 +1,36 @@
+{
+  "_embedded": {
+    "drinks": [
+      {
+        "drinkName": "Avocado Juice",
+        "description": "Juiced Avocado With Less Sugar, Served With Milk",
+        "price": 2.22,
+        "picture": "https://www.resepnasional.com/wp-content/uploads/2015/03/Resep-Spesial-Membuat-Jus-Alpukat-Segar.jpg",
+        "keywords": "Ice, Juice, Avocado",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/api/drinks/1"
+          },
+          "drink": {
+            "href": "http://localhost:8080/api/drinks/1"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/api/drinks{?page,size,sort}",
+      "templated": true
+    },
+    "profile": {
+      "href": "http://localhost:8080/api/profile/drinks"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 1,
+    "totalPages": 1,
+    "number": 0
+  }
+}

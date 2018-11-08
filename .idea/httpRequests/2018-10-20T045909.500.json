@@ -1,0 +1,7 @@
+{
+  "timestamp": "2018-10-20T08:59:09.857+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Something went wrong",
+  "path": "/users/signin"
+}

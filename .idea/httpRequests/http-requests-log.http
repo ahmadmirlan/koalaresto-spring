@@ -1,0 +1,71 @@
+POST http://localhost:8080/users/signin
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "letmein"
+}
+
+<> 2018-10-20T050139.200.txt
+
+###
+
+POST http://localhost:8080/signin
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "letmein"
+}
+
+<> 2018-10-20T050127.403.json
+
+###
+
+POST http://localhost:8080/signin
+
+<> 2018-10-20T045954.403.json
+
+###
+
+POST http://localhost:8080/users/signin
+
+<> 2018-10-20T045909.500.json
+
+###
+
+POST http://localhost:8080/signin
+
+<> 2018-10-20T045856.403.json
+
+###
+
+GET http://localhost:8080/api/drinks/1
+
+<> 2018-10-20T045727.200.json
+
+###
+
+GET http://localhost:8080/api/drinks
+
+<> 2018-10-20T045719.200.json
+
+###
+
+GET http://localhost:8080/api/profile/{repository}
+Accept: application/alps+json
+
+###
+
+GET http://localhost:8080/api/users
+
+<> 2018-10-18T095908.403.json
+
+###
+
+POST http://localhost:8080/users/signup
+
+<> 2018-10-18T071015.403.json
+
+###
+
